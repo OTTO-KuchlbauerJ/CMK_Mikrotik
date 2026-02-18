@@ -1,0 +1,1 @@
+You have to put this files in <omd directory>/local/share/check_mk/web/plugins/wato

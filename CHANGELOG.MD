@@ -6,9 +6,9 @@
 - Completely rewritten the configuration section on WATO
 - ⚠️ You must remove any previous rules based on this plugin and reconfigure from scratch
 
-## [3.2.3] - 2025-11-01
+## [3.2.2] - 2025-08-06
 ### Fixed
-- Resolved an issue that not correctly load the enabled firewall rules (Thanks to Hugo for the suggestion)
+- Resolved an issue that not correctly load the enabled firewall rules (Thanks to Marcel Eckert for the suggestion)
 
 ## [3.2.2] - 2025-08-06
 ### Fixed

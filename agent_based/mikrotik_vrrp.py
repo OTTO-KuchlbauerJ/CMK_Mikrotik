@@ -78,6 +78,12 @@ def check_mikrotik_vrrp(
                 summary=f"Backup on {data.get('interface', 'unknown interface')}",
                 details=f"VRID: {data.get('vrid', 'unknown')}, MAC: {data.get('mac-address', 'unknown')}",
             )
+        elif data.get('.about', '') == "VRRP Group is not ready!":
+            yield Result(
+                state=State.OK,
+                summary=f"VRRP group {data.get('group-authority', 'unknown group authority')} is not ready",
+                details=f"VRID: {data.get('vrid', 'unknown')}, MAC: {data.get('mac-address', 'unknown')}",
+            )
         else:
             yield Result(
                 state=State.CRIT,

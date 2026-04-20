@@ -375,7 +375,7 @@ command_set['6'] = {
                        "active"  : False,
                        "command" : ["/interface/vrrp/print"],
                        "filtered": ['name', 'vrid', 'invalid', 'mac-address', 'master', 
-                                    'backup', 'interface', 'running', 'disabled'],
+                                    'backup', 'interface', 'running', 'disabled', 'group-authority', '.about'],
                       },
 
     "ipsec"         : {
